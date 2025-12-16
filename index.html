@@ -3,125 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foster Hare | Software Engineer</title>
-  
-  <section>
-  <h2>Portfolio Navigation</h2>
-  <ul>
-    <li><a href="documents/CS-499 Professional Self-Assessment.pdf">Professional Self-Assessment</a></li>
-    <li><a href="#projects">Technical Artifacts</a></li>
-    <li><a href="documents/CS-499 Capstone Artifact Narrative.pdf">Capstone Artifact Narrative</a></li>
-    <li><a href="https://youtu.be/ItMnUMikiOc" target="_blank">Code Review Video</a></li>
-    <li><a href="https://github.com/Bigfoss405" target="_blank">GitHub Repository</a></li>
-  </ul>
-  </section>
+  <title>Foster Hare | CS-499 ePortfolio</title>
 
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #0f172a;
-      color: #e5e7eb;
-    }
-
-    header {
-      padding: 3rem 2rem;
-      text-align: center;
-      background-color: #020617;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 2rem;
-    }
-
-    h1, h2 {
-      color: #38bdf8;
-    }
-
-    .project {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      background-color: #020617;
-      border-radius: 8px;
-    }
-
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="artifact.html">Technical Artifact</a>
+    <a href="documentation.html">Narratives</a>
+    <a href="codereview.html">Code Review</a>
+  </nav>
+
+  <!-- Header -->
   <header>
     <h1>Foster Hare</h1>
-    <p>Software Engineer | Computer Science Graduate</p>
+    <p class="meta">
+      Computer Science | Software Engineering | CS-499 Capstone ePortfolio
+    </p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a Computer Science graduate with a focus on software engineering.
-      My work includes full-stack web development, Android applications,
-      embedded systems, and secure coding practices.
-    </p>
-  </section>
+  <main>
 
-  <section>
-  <h2>Technical Skills</h2>
-  <p>
-    Languages: Java, Python, C++, JavaScript, SQL<br />
-    Frameworks & Tools: Android SDK, Angular, Node.js, MongoDB, Git, GitHub<br />
-    Systems: Linux, Raspberry Pi, Embedded Systems, Secure Coding
-  </p>
-  </section>
+    <!-- About -->
+    <section class="card">
+      <h2>About This ePortfolio</h2>
+      <p>
+        This ePortfolio was developed as part of the CS-499 Computer Science Capstone
+        at Southern New Hampshire University. It showcases my growth in software design
+        and engineering, algorithms and data structures, and database management through
+        the enhancement of a single comprehensive technical artifact.
+      </p>
+    </section>
 
+    <!-- Project Summary -->
+    <section class="card">
+      <h2>Capstone Project: EventBuddy</h2>
+      <p>
+        EventBuddy is an Android mobile application originally developed to allow users
+        to create, edit, and manage personal events using a local SQLite database.
+        During the capstone, this project was enhanced to improve its architecture,
+        algorithmic efficiency, and database design.
+      </p>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>
-        Note: My capstone focused on a single comprehensive project(EventBuddy).
-        All milestone requirements and enhancements are addressed
-        within one consolidated narrative document.
-    </p>
+      <p>
+        <a class="button" href="artifact.html">View Technical Artifact</a>
+        <a class="button" href="documentation.html">View Documentation</a>
+        <a class="button" href="codereview.html">Watch Code Review</a>
+      </p>
+    </section>
 
-    <div class="project">
-      <h3>EventBuddy (Android App)</h3>
-      <p>SQLite-based event tracking application built in Android Studio.</p>
-      <a href="artifacts/eventbuddy/EventBuddy (Original) (1).zip">Original Code</a>
-      <a href="artifacts/eventbuddy/EventBuddy(Revised) (1).zip">Refactored Code</a>
-    </div>
+    <!-- What is included -->
+    <section class="card">
+      <h2>Portfolio Contents</h2>
+      <ul>
+        <li>Original and enhanced versions of the EventBuddy application</li>
+        <li>Capstone milestone narrative (single consolidated document)</li>
+        <li>Capstone enhancement plan</li>
+        <li>Professional self-assessment</li>
+        <li>Code review video</li>
+      </ul>
+    </section>
 
-    <div class="project">
-      <h3>Travlr Getaways (MEAN Stack)</h3>
-      <p>Full-stack travel booking application with Angular, Express, and MongoDB.</p>
-      <a href="https://github.com/Bigfoss405/cs465-fullstack">View on GitHub</a>
-    </div>
+    <!-- Contact -->
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:fosterhare52@gmail.com">fosterhare52@gmail.com</a><br />
+        GitHub:
+        <a href="https://github.com/Bigfoss405" target="_blank">github.com/Bigfoss405</a><br />
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/foster-hare-71102b161/" target="_blank">
+          linkedin.com/in/foster-hare
+        </a>
+      </p>
+    </section>
 
-    <div class="project">
-      <h3>Smart Thermostat (Embedded Systems)</h3>
-      <p>Raspberry Pi project using GPIO, I2C sensors, UART, and state machines.</p>
-      <a href="https://github.com/Bigfoss405/CS-350">View on GitHub</a>
-    </div>
-  </section>
+  </main>
 
-  <section>
-    <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:fosterhare52@gmail.com">fosterhare52@gmail.com</a><br />
-      GitHub: <a href="https://github.com/Bigfoss405" target="_blank">github.com/Bigfoss405</a><br />
-      LinkedIn: <a href="https://linkedin.com/in/foster-hare-71102b161/" target="_blank">LinkedIn</a>
-    </p>
-  </section>
 </body>
-<footer style="text-align:center; padding:2rem; color:#94a3b8;">
-  © 2025 Foster Hare
-</footer>
 </html>
